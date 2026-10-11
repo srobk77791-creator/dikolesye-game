@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dikolesye-game",
+  "main": "cloudflare/worker.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {"directory": "./public", "binding": "ASSETS", "run_worker_first": ["/ws", "/health"]},
+  "durable_objects": {"bindings": [{"name": "ISLAND", "class_name": "Island"}]},
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["Island"]}],
+  "vars": {"MAX_PLAYERS": "12"},
+  "workers_dev": true
+}

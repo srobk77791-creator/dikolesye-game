@@ -1,0 +1,23 @@
+{
+  "name": "dikolesye-online-prototype",
+  "version": "0.8.1",
+  "private": true,
+  "description": "Dikolesye PvP/clans prototype, Cloudflare and Node",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node test/engine.cjs && node test/social.cjs && node test/performance.cjs",
+    "cf:dev": "wrangler dev",
+    "cf:deploy": "wrangler deploy",
+    "cf:login": "wrangler login",
+    "cf:check": "wrangler deploy --dry-run"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "wrangler": "^4.149.0"
+  }
+}
