@@ -1,0 +1,7 @@
+ДИКОЛЕСЬЕ 0.11 — не опубликовано автоматически.
+Распакуйте Диколесье-0.11-Render.zip и загрузите ВСЕ файлы в корень GitHub-репозитория, подключённого к Render. Commit changes.
+Render: Root Directory пусто; Build Command npm install --omit=dev; Start Command npm start.
+Manual Deploy → Deploy latest commit. Дождитесь успешного запуска. Откройте прежний адрес, Ctrl+Shift+R.
+Проверьте меню v0.11 Online и /health: version 0.11.0.
+Не загружайте сам ZIP или node_modules. Не меняйте только README.
+Подробности — README.md. Внешняя база не подключена; временный диск Render может потерять прогресс.

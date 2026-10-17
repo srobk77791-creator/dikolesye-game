@@ -1,11 +1,11 @@
 {
   "name": "dikolesye-online-prototype",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "private": true,
   "description": "Dikolesye PvP/clans prototype, Cloudflare and Node",
   "scripts": {
     "start": "node server.cjs",
-    "test": "node test-engine.cjs && node test-social.cjs && node test-performance.cjs && node test-world.cjs"
+    "test": "node test-engine.cjs && node test-expansion.cjs && node test-performance.cjs && node test-social.cjs && node test-world.cjs"
   },
   "engines": {
     "node": "22.x"
